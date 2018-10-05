@@ -16,7 +16,9 @@ TODO
 
 ### Prerequisites
 
-TODO
+Install [gort](http://gort.io/documentation/getting_started/downloads/) to find the correct serial port of the thing you are interfacing with and to flash the appropriate firmware.
+
+TODO: explain
 
 ### Installing
 

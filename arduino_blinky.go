@@ -10,8 +10,8 @@ var rate time.Duration
 
 var arduinoBlinkyCmd = &cobra.Command{
 	Use:   "blinky",
-	Short: "Flashes an LED light.",
-	Long:  "Flashes an LED light on IO pin 13 at the given rate.",
+	Short: "Toggles an LED light at a fixed rate.",
+	Long:  `To run blinky, first ensure an LED is appropriately attached to an Arduino Uno on IO pin 13.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		blinky.Run(verbose, serial, rate)
 	},
